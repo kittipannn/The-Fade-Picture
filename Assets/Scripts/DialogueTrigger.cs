@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class DialogueTrigger : MonoBehaviour
+{
+    public Dialogue dialogue;
+    public void TriggerDialogue() 
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+    }
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            TriggerDialogue();
+        }
+    }
+}

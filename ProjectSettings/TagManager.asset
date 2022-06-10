@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Floor
+  - InteractObj
+  - MainCanvas
+  - Objective
+  - Box
+  - DialogueCanvas
+  - plat1
+  - plat2
+  - plat3
+  - plat4
+  - plat5
+  - plat6
+  - plat7
+  - plat8
+  - key1
+  - key2
+  - key3
+  - wall1
+  - wall2
+  - wall3
+  - objectiveKey1
+  - objectiveKey2
+  - objectiveKey3
+  - boxOfMem
+  - DialogCanvas
+  - UiKey1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Floor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 4224790275
+    locked: 0
+  - name: Ground
+    uniqueID: 3064023017
+    locked: 0
+  - name: Foreground
+    uniqueID: 1923901571
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 2839823225
+    locked: 0
